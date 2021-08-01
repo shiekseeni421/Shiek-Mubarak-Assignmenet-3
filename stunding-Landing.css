@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #cec5c5;;
+}
+
+.headding{
+    padding: 20px 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-log{
+    height:55px;
+    width: 125px;
+}
+
+.nav-el{
+    color:whitesmoke;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5px;
+}
+
+.nav-button{
+    background-color:#FFD8DB;
+    color:#8071D0;
+    padding:15px 20px;
+    border-radius: 18px;
+    border-width: 0px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 1000ms ;
+   
+}
+
+.nav-el:hover{
+    text-decoration: #8071D0;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 4px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 900;
+    cursor:pointer;
+}
+
+.overal-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-sesction{
+    width: 80%;
+    display: flex;
+}
+
+.stuning-working-sesction-1{
+    width: 35%;
+}
+
+.main-heading{
+    font-size: 65px;
+    font-family: 'Poppins', sans-serif;
+}
+.rectangle-box{
+    height: 8px;
+    width: 8px;
+    background-color:#5243C0;
+    padding: 2px;
+    align-self:center;
+    display:inline-block;
+}
+
+.discrption{
+    color:gray;
+    font-size:20px;
+}
+.New-Account-bu{
+    background-color:#5243C0;
+    color:#ffffff;
+    padding:15px 30px;
+    border-radius: 18px;
+    border-width: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.arrow-img{
+    height: 65px;
+    margin-left: 8px;
+    border-radius: 30px;
+}
+
+.Account-container{
+    display: flex;
+}
+
+.card-sesction{
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+
+.main-card{
+    border-radius: 15px;
+    padding-left: 20px;
+    background-color:#d9d9d9;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.blue-tick{
+    display: none;
+    border-radius: 25px;
+}
+
+.gray-tick{
+    display: block;
+    border-radius: 25px;
+}
+
+.main-card:hover{
+    background-color:white;
+    cursor:pointer;
+}
+
+
+
+.main-card:hover .blue-tick{
+    display: block;
+}
+
+.main-card:hover .gray-tick{
+    display:none;
+}
+
+.user-png{
+    border-radius: 25px;
+}
+
+.user-headding{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    margin-left: 15px;
+    
+}
+
+
+.user-date{
+    color: #cccccc;
+}
+
+.color-button{
+    padding:5px;
+    border-radius: 20px;
+    width: 10px;
+    margin-right: 0px;
+}
+
+.color-butt1{
+    background-color: hotpink;
+}
+
+.color-butt2{
+    background-color:#FD6534;
+}
+
+.color-butt3{
+    background-color:#9ED095;
+}
+
+.color-butt4{
+    background-color:#FFE4A0;
+}
+
+
+.stuning-working-sesction-2{
+    width: 65%;
+}
+
+.landing-main{
+    width: 100%;
+    margin-left: 55px;
+    margin-top: 55px;
+}
+
+
+.user-png-mar-1{
+    margin-left:50px;
+}
+
+
+.user-png-mar-2{
+    margin-left:25px;
+}
+
+
+.user-png-mar-3{
+    margin-left:65px;
+}
+
+.user-png-mar-4{
+    margin-left:87px;
+}
+
+.date-marg{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+
+
+
